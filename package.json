@@ -1,21 +1,21 @@
 {
-  "name": "express-4.x-local-example",
+  "name": "pw051",
   "version": "0.0.0",
-  "description": "Express 4.x app using Passport for authentication with username and password.",
+  "description": "Express 4.x app using Passport for authentication with username and password. (Jared Hanson)",
   "keywords": [
     "example",
     "express",
     "passport"
   ],
-  "author": "Jared Hanson",
+  "author": "nucbm",
   "license": "Unlicense",
-  "homepage": "https://github.com/passport/express-4.x-local-example",
+  "homepage": "https://github.com/nucbm/pw051",
   "repository": {
     "type": "git",
-    "url": "git://github.com/passport/express-4.x-local-example.git"
+    "url": "git://github.com/nucbm/pw051.git"
   },
   "bugs": {
-    "url": "https://github.com/passport/express-4.x-local-example/issues"
+    "url": "https://github.com/nucbm/pw051/issues"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
