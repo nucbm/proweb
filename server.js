@@ -1,4 +1,6 @@
+
 var express = require('express');
+
 var passport = require('passport');
 var Strategy = require('passport-local').Strategy;
 var db = require('./db');
@@ -45,6 +47,7 @@ passport.deserializeUser(function(id, cb) {
 // Create a new Express application.
 var app = express();
 
+
 // Configure view engine to render EJS templates.
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
@@ -89,4 +92,14 @@ app.get('/profile',
     res.render('profile', { user: req.user });
   });
 
-app.listen(3000);
+
+
+app.get('/hello', function (req, res) {
+   res.send('Hello World');
+})
+
+var server = app.listen(3000, function () {
+   console.log("Example app listening at port 3000");
+})
+
+//app.listen(3000);
